@@ -1,0 +1,14 @@
+# 1. Generate simulated data (replace with real data in production)
+Rscript data/generate_simulated_data.R
+
+# 2. Generate textures (optional; requires source linen image)
+python src/texture_processing.py
+
+# 3. Run statistical analyses
+Rscript src/statistical_analysis.R
+
+# 4. Generate all 5 figures (PNG/TIFF/PDF, 600 DPI, 16:9)
+python src/figures.py
+
+# Or run everything with one command
+bash run_all.sh
