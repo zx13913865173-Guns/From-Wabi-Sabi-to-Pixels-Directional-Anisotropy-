@@ -1,0 +1,27 @@
+
+---
+
+## environment.yml
+
+```yaml
+name: linen_study
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - scikit-image>=0.21.0
+  - matplotlib>=3.7
+  - pandas>=2.0
+  - pillow>=10.0
+  - opencv>=4.8
+  - r-base=4.3.2
+  - r-survival
+  - r-emmeans
+  - r-multcomp
+  - r-afex
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
